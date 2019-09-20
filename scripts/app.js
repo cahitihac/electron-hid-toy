@@ -57,6 +57,8 @@ const App = () => {
                                 <th>Manufacturer</th>
                                 <th>SerialNumber</th>
                                 <th>Path</th>
+                                <th>Action</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
