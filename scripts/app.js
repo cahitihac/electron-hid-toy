@@ -37,6 +37,7 @@ const App = () => {
                         deviceHandle.write([0x02, 0x00]);
                     } }>Close Device</button>
                 </td>
+                <td>{JSON.stringify(dev, null, 4)}</td>
             </tr>
         );
     };
@@ -59,6 +60,7 @@ const App = () => {
                                 <th>Path</th>
                                 <th>Action</th>
                                 <th>Action</th>
+                                <th>Device Obj</th>
                             </tr>
                         </thead>
                         <tbody>
